@@ -1,0 +1,9 @@
+<form id="contactform" action="https://formspree.io/el666@inbox.ru" method="POST">
+<contact><input type="text" name="name" required placeholder="Имя">
+<input type="email" name="_replyto" required placeholder="E-mail"></contact>
+<textarea name="message" required placeholder="Сообщение"></textarea>
+
+<input type="submit" value="Отправить" id="form_button">
+			
+<input type="hidden" name="_next" value="/thanks.html" />
+</form>

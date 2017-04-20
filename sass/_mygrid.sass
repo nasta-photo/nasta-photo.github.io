@@ -1,0 +1,113 @@
+$grid-margin: .5rem
+$grid-paddng: 0
+$width-md: 60rem
+$width-sm: 42rem
+
+*
+	margin: 0
+	padding: 0
+
+img
+	max-width: 100%
+
+.flex-row
+	display: flex
+	flex-flow: row wrap
+	margin-left: $grid-margin
+	margin-right: $grid-margin
+
+
+.flex-row-c
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	margin-left: $grid-margin
+	margin-right: $grid-margin
+
+
+.lg1, .lg2, .lg3, .lg4, .lg5, .lg6, .lg7, .lg8, .lg9, .lg10, .lg11, .lg12
+	margin: $grid-margin
+	padding: $grid-paddng
+	box-sizing: border-box
+
+
+.lg1
+	width: calc(8.33333333333333% - #{$grid-margin} * 2)
+.lg2
+	width: calc(16.6666666666667% - #{$grid-margin} * 2)
+.lg3
+	width: calc(25% - #{$grid-margin} * 2)
+.lg4
+	width: calc(33.3333333333333% - #{$grid-margin} * 2)
+.lg5
+	width: calc(41.6666666666667% - #{$grid-margin} * 2)
+.lg6
+	width: calc(50% - #{$grid-margin} * 2)
+.lg7
+	width: calc(58.3333333333333% - #{$grid-margin} * 2)
+.lg8
+	width: calc(66.6666666666667% - #{$grid-margin} * 2)
+.lg9
+	width: calc(75% - #{$grid-margin} * 2)
+.lg10
+	width: calc(83.3333333333333% - #{$grid-margin} * 2)
+.lg11
+	width: calc(91.6666666666667% - #{$grid-margin} * 2)
+.lg12
+	width: calc(100% - #{$grid-margin} * 2)
+
+@media screen and (max-width: $width-md)
+	.md1
+		width: calc(8.33333333333333% - #{$grid-margin} * 2)
+	.md2
+		width: calc(16.6666666666667% - #{$grid-margin} * 2)
+	.md3
+		width: calc(25% - #{$grid-margin} * 2)
+	.md4
+		width: calc(33.3333333333333% - #{$grid-margin} * 2)
+	.md5
+		width: calc(41.6666666666667% - #{$grid-margin} * 2)
+	.md6
+		width: calc(50% - #{$grid-margin} * 2)
+	.md7
+		width: calc(58.3333333333333% - #{$grid-margin} * 2)
+	.md8
+		width: calc(66.6666666666667% - #{$grid-margin} * 2)
+	.md9
+		width: calc(75% - #{$grid-margin} * 2)
+	.md10
+		width: calc(83.3333333333333% - #{$grid-margin} * 2)
+	.md11
+		width: calc(91.6666666666667% - #{$grid-margin} * 2)
+	.md12
+		width: calc(100% - #{$grid-margin} * 2)
+	.md0
+		display: none
+
+@media screen and (max-width: $width-sm)
+	.sm1
+		width: calc(8.33333333333333% - #{$grid-margin} * 2)
+	.sm2
+		width: calc(16.6666666666667% - #{$grid-margin} * 2)
+	.sm3
+		width: calc(25% - #{$grid-margin} * 2)
+	.sm4
+		width: calc(33.3333333333333% - #{$grid-margin} * 2)
+	.sm5
+		width: calc(41.6666666666667% - #{$grid-margin} * 2)
+	.sm6
+		width: calc(50% - #{$grid-margin} * 2)
+	.sm7
+		width: calc(58.3333333333333% - #{$grid-margin} * 2)
+	.sm8
+		width: calc(66.6666666666667% - #{$grid-margin} * 2)
+	.sm9
+		width: calc(75% - #{$grid-margin} * 2)
+	.sm10
+		width: calc(83.3333333333333% - #{$grid-margin} * 2)
+	.sm11
+		width: calc(91.6666666666667% - #{$grid-margin} * 2)
+	.sm12
+		width: calc(100% - #{$grid-margin} * 2)
+	.sm0
+		display: none
